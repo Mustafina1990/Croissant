@@ -3,8 +3,9 @@ body {
   background-color: blanchedalmond;
 }
 
-h1 {
-  padding-top: 70px;
+h1,
+h2 {
+  padding-top: 50px;
   text-align: center;
 }
 
@@ -16,11 +17,27 @@ p,
 .container {
   display: flex;
   flex-direction: column;
+  margin-bottom: 30px;
 }
 
 .photo {
   text-decoration: none;
   text-align: center;
   font-size: larger;
-  color: black;
+  color: rgb(115, 112, 22);
+}
+
+.imgCroissant {
+  display: block;
+  margin: 30px auto;
+}
+
+.footerLink {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.text {
+  text-align: center;
 }
