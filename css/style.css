@@ -1,0 +1,26 @@
+body {
+  margin: 0 auto;
+  background-color: blanchedalmond;
+}
+
+h1 {
+  padding-top: 70px;
+  text-align: center;
+}
+
+p,
+.type {
+  padding: 0 200px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.photo {
+  text-decoration: none;
+  text-align: center;
+  font-size: larger;
+  color: black;
+}
